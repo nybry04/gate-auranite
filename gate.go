@@ -16,7 +16,6 @@ func main() {
 		//
 		// Checkout https://github.com/minekube/awesome for some inspiration.
 		supaauth.Plugin,
-
 		// Add more plugins as you like.
 		// They will be initialized in the same order as appended.
 	)
