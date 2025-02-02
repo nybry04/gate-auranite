@@ -98,7 +98,7 @@ func fetchUsers() {
 
 		localUsers := make(map[string]User)
 
-		jsonparser.ArrayEach(data, func(value []byte, dataType jsonparser.ValueType, offset int, err error) {
+		_, _ = jsonparser.ArrayEach(data, func(value []byte, dataType jsonparser.ValueType, offset int, err error) {
 			id, _ := jsonparser.GetString(value, "id")
 			ip, _ := jsonparser.GetString(value, "ip")
 			username, _ := jsonparser.GetString(value, "username")
