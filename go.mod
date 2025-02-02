@@ -17,6 +17,7 @@ require (
 	connectrpc.com/connect v1.17.0 // indirect
 	github.com/Tnze/go-mc v1.20.2 // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
+	github.com/buger/jsonparser v1.1.1 // indirect
 	github.com/coder/websocket v1.8.12 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
 	github.com/dboslee/lru v0.0.1 // indirect
