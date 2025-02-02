@@ -1,0 +1,6 @@
+.idea
+.vscode
+gate-plugin-template*
+
+supaauth.yml
+config.yml
